@@ -10,7 +10,7 @@
 #### users can edit/change their names.
 #### users can also change thier passwords in their dashboard.
 #### users can create a blog post
-#### users can edit/answers blog post uestion.
+#### users can edit/answers blog post question.
 #### users can comment on a post which will also display their profile picture i.e if they uploaded.
 ####  users can also edit/update their comment.
 #### users can subscribe and unsubscribe to news letter to get latest update.
