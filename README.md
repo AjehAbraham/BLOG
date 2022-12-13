@@ -5,7 +5,7 @@
 ## This is a blog that perform the following task:
 
 #### User authentication
-#### where users can edit thier profile.
+#### where users can edit their profile.
 #### users can uoload/change profile picture.
 #### users can edit/change their names.
 #### users can also change thier passwords in their dashboard.
