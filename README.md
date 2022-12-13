@@ -9,7 +9,8 @@
 #### users can uoload/change profile picture.
 #### users can edit/change their names.
 #### users can also change thier passwords in their dashboard.
-#### users can create a blog post
+#### users can create a blog post which will also display informations like the authors name,category,date created.
+#### Guest can also view and share post.
 #### users can edit/answers blog post question.
 #### users can comment on a post which will also display their profile picture i.e if they uploaded.
 ####  users can also edit/update their comment.
