@@ -1,0 +1,35 @@
+.reply-post  i{
+font-size: 70px;
+background-color: rgb(0,0,56);
+color: white;
+margin-left: 10px;
+margin-top: 20px;
+border-radius: 50%;
+width: 85px;
+height: 85px;
+}
+
+.form-container-rapper{
+    display: none;
+}
+
+.form-container-rapper textarea{
+
+    margin-left: 10px;
+width: 90%;
+background-color: transparent;
+border: 0;
+border-bottom:  2px solid #ccc;
+display: block;
+font-size: 20px;
+outline: 0;
+
+}
+.form-container-rapper input[type=submit]{
+    margin: 10px;
+    background-color: rgba(210,0,0,0.9);
+    color: white;
+    padding: 10px 10px;
+    font-size: 20px;
+border: none;
+}

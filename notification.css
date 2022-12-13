@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+    .notification_container a:link{
+        color: blue;
+        text-decoration: none;
+    
+    }
+    .notification_container a:visited{
+        color: red;
+    }
+    .notification_container p{
+    font-size: 20px;
+    font-weight: lighter;
+      margin-left: 5px;
+    }
+    .notification_container  h2{
+    background-color: rgba(210,0,0,0.9);
+    color: white;
+    padding: 5px 5px;
+    box-shadow: 0px 16px 8px 0px rgba(0,0,0,0.2);
+    font-size: 28px;
+    
+    }
+    .notification_container  h1{
+      text-align: center;
+    }

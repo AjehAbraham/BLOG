@@ -1,0 +1,41 @@
+.cookies-container .Accept-cookies{
+    background-color:rgb(0,0,56);
+    color: white;
+    border-radius: 2rem;
+    padding: 10px 10px;
+    border: none;
+    width: 70%;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    }
+    .cookies-container .Reject-cookies{
+        background-color: rgba(210,0,0,0.9);
+        color: white;
+        border-radius: 2rem;
+    padding: 10px 10px;
+    border: none;
+    width: 70%;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    }
+    .cookies-container{
+position: fixed;
+bottom: 0;
+z-index: 2;
+background-color: #ccc;
+width: 100%;
+text-align: center;
+border-top: 2px solid rgba(210,0,0,0.9);
+padding: 2px 2px;
+animation:  cookie-animation  2s 1 ease-in;
+display: block
+;
+}
+@keyframes cookie-animation {
+    0%{transform: translate3d(0,100px,0);}
+100%{transform: translate3d(0,0,0);}
+}

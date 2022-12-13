@@ -1,0 +1,269 @@
+
+html{
+    font-family: 'montserrat';
+    font-size: 18px;
+}
+body{
+    margin: 0;
+    background-color: #f1f1f1;
+    font-family: 'montserrat';
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+.intoduction-and-welcome-message{
+    margin-bottom: 30px;
+    border-bottom: 5px solid rgba(210,0,0,0.9);
+    z-index: -2;
+}
+.intoduction-and-welcome-message p:nth-child(1){
+    text-align: center;
+animation: welcome-message-animation 4s linear infinite;
+animation-direction: alternate-reverse;
+    width: 90%;
+    border-bottom: 5px solid rgb(0,0,56);
+    background-color: rgba(210,0,0,0.9);
+    color: white;
+    font-weight: lighter;
+    z-index: -2;
+    box-shadow: 0px 16px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+    padding: 10px 10px;
+}
+.intoduction-and-welcome-message p:nth-child(1) a:active{
+    border-bottom: 5px solid rgba(210,0,0,0.9);
+    
+}
+.intoduction-and-welcome-message h3{
+    text-align: center;
+}
+
+@keyframes welcome-message-animation{
+        0%{transform: translate3d(8%,0,0);}
+    100%{transform: translate3d(0,0,0);}
+}
+.intoduction-and-welcome-message p:nth-child(2){
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 95%;
+}
+.founders-images img{
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+  margin-left: 12px;
+    display: block;
+    border: 5px solid #ccc9;
+}
+.founders-images p{
+    margin-left: 5px;
+    
+}
+.founders-images{
+margin-bottom: 20px;
+   border-bottom: 5px solid rgb(0,0,56); 
+   
+}
+.details-container{
+
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding:15px 15px;
+    background-color: skyblue;
+}
+.text-conatiner-introduction{
+    margin-right: auto;
+margin-left: auto;
+display: block;
+width: 90%;
+background-color: orangered;
+border-radius: 2rem;
+margin-top: 20px;
+margin-bottom: 30px;
+padding:18px 18px;
+}
+.text-conatiner-introduction h1{
+    margin: 10px;
+    color: white;
+}
+.text-conatiner-introduction p{
+    text-align: center;
+    color: white;
+}
+.text-conatiner-introduction img{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 2rem;
+    border: 2px solid white;
+}
+.introduction-container-news{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 90%;
+    background-color: rgb(0,0,56);
+    border-radius: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 18px 18px;
+
+}
+.introduction-container-news p{
+    text-align: center;
+    color: white;
+}
+.introduction-container-news h1{
+    margin: 10px;
+    color: white;
+}
+.introduction-container-news img{
+width: 80%;
+margin-right: auto;
+margin-left: auto;
+display: block;
+border-radius: 2rem;
+border: 2px solid white;
+}
+.introduction-container-developer{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 90%;
+    background-color: rgba(0,210,0,00.9);
+    border-radius: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 18px 18px;
+    
+}
+.introduction-container-developer img{
+    width: 80%;
+margin-right: auto;
+margin-left: auto;
+display: block;
+border-radius: 2rem;
+border: 2px solid white;
+}
+.introduction-container-developer h1{
+    margin: 10px;
+    color: white;
+}
+.introduction-container-developer p{
+    text-align: center;
+    color: white;
+}
+.introduction-container-health-tips{
+
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 90%;
+    background-color: rgba(210,0,0,0.9);
+    border-radius: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 18px 18px;
+}
+.introduction-container-health-tips img{
+    width: 80%;
+margin-right: auto;
+margin-left: auto;
+display: block;
+border-radius: 2rem;
+border: 2px solid white;
+}
+.introduction-container-health-tips h1{
+    margin: 10px;
+    color: white;
+}
+.introduction-container-health-tips p{
+    text-align: center;
+    color: white;
+
+}
+.Ask-question-container{
+    
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 90%;
+    background-color: coral;
+    border-radius: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 15px 15px;
+}
+.Ask-question-container h1{
+    margin: 10px;
+    color: white;
+}
+.Ask-question-container p{
+    text-align: center;
+    color: white;
+}
+.Ask-question-container img{
+    width: 80%;
+margin-right: auto;
+margin-left: auto;
+display: block;
+border-radius: 2rem;
+border: 2px solid white;
+    
+}
+
+.Comment-container{
+    
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 90%;
+    background-color: orange;
+    border-radius: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 15px 15px;
+}
+.Comment-container img{
+    width: 90%;
+margin-right: auto;
+margin-left: auto;
+display: block;
+border-radius: 2rem;
+border: 2px solid white;
+}
+.Comment-container p{
+    text-align: center;
+    color: white;
+}
+.Comment-container h1{
+    margin: 10px;
+    color: white;
+}
+
+h1 {
+  color: #7e685a;
+}
+
+.box {
+  box-shadow: 2px 4px 5px rgba(0, 0 0, 0.3);
+ transform: translateX(-100%);
+  transition: transform 0.4s ease;
+  z-index: -2;
+  overflow-x: hidden;
+  overflow: hidden;
+}
+
+.box:nth-of-type(even) {
+  transform: translateX(-100%);
+}
+.box.show {
+  transform: translateX(0);
+}
+

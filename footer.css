@@ -1,0 +1,211 @@
+html{
+     font-family: 'PT Serif', serif;
+    font-size: 17px;
+}
+body{
+    margin: 0;
+   background-color: #f1f1f1;
+   /*
+   font-family: 'PT Serif', serif;
+    font-size: 17px;*/
+}
+span{
+    color: rgba(210,0,0,0.9);
+    
+    font-weight: bold;
+    font-size: 28px;
+}
+.feedBack{
+    margin-top: 50px;
+text-align: center;
+    width: 90%;/*
+    border:  2px solid rgba(0,0,56,0.9);*/
+    background-color: skyblue;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding:5px 5px;
+    overflow-y: scroll;
+}
+.rating{
+ margin-left:30px;
+    color: rgba(0,0,56,0.9);
+    font-size:  20px;
+    margin-left: auto;
+margin-right: auto;
+display: block;
+font-size: 35px;
+}
+.thumbs_up_message{
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    width: 100%;
+    background-color: rgba(255,255,255,0.9);
+    padding: 10px 10px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    overflow-y: scroll;
+}
+.futher-complain{
+    display: none;
+    overflow-y: scroll;
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width:90%;
+}
+.further-complain span{
+    cursor: pointer;
+    color: rgba(210,0,0,0.9);
+    top: 30px;
+    font-size: 40px;
+}
+.futher-complain input[type=text]{
+    padding: 10px 10px;
+    border: 2px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90%;
+    font-size: 20px;
+    outline: 0;
+}
+.futher-complain input[type=email]{
+    padding: 10px 10px;
+    border: 2px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90%;
+    font-size: 20px;
+    outline: 0;
+}
+.futher-complain input[type=submit]{
+    padding: 10px 10px;
+    border: 2px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70%;
+    border: none;
+    background-color: rgba(210,0,0,0.9);
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding:13px 13px;
+    font-size: 20px;
+}
+.futher-complain textarea{
+    width: 90%;
+    border:  2px solid #ccc;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   outline: 0;
+}
+.futher-complain label{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   
+}
+.News-letter label{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90%;
+}
+.News-letter input[type=email]{
+    padding: 10px 10px;
+    border: 2px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+    font-size: 20px;
+    outline: 0;
+}
+.News-letter input[type=submit]{
+    padding: 10px 10px;
+    border: 2px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70%;
+    border: none;
+    background-color: rgba(210,0,0,0.9);
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+     padding: 13px 13px;
+     font-size: 20px;
+}
+
+  .loader-overlay{
+  background-color: rgba(255,255,255,0.9);
+            width:100%;
+            height:100%;
+            position: fixed;
+            top:0;
+            bottom:0;
+            display: none;
+  }
+  .loader-overlay i{
+  position: absolute;
+  margin: -45px 0 0 -45px;
+font-size: 40px;
+color:rgb(0,0,56);
+font-size: 60px;
+top: 50%;
+  left: 50%;
+  animation: loader 0.9s linear infinite;
+  }
+  @keyframes loader{
+  0%{transform: rotate(0deg);
+  }
+  100%{transform: rotate(360deg);}
+  }
+
+.back-to-top{
+    text-align: center;
+    color: rgb(0,0,56);
+    font-size: 25px;
+}
+.back-to-top span{
+font-size: 40px;
+}
+.footer{
+background-color: rgb(0,0,56);
+padding: 5px 5px;
+font-family: 'Roboto Mono', monospace;
+text-align: center;
+}
+.footer i{
+    margin: 10px;
+    font-size: 38px;
+    color: white;
+}
+.footer p{
+ text-align: center;
+ font-size: 18px;
+ color: white;
+}
+.footer a:link{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover,a:active,a:visited{
+    text-decoration: none;
+    color: white;
+}
+.footer-logo{
+    color: rgba(210,0,0,0.9);
+    font-family: 'macondo',cursive;
+}
